@@ -9,7 +9,7 @@ services:
     environment: 
       - PORT=8080
       - SECRET=qwert228
-      - DB=postgres
+      - DB_HOST=postgres
 
   postgres:
     image: postgres:11.2-alpine
