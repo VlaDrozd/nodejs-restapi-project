@@ -1,0 +1,1 @@
+echo "ping -n 1 www.google.com"
